@@ -5,7 +5,7 @@ export const meta: MetaFunction = () => {
     { title: "New Remix App" },
     {
       name: "description",
-      content: "Welcome to Remix on Cloudflare!",
+      content: "Welcome to Remix on Cloudflare Workers!",
     },
   ];
 };
