@@ -3,3 +3,14 @@ name = "delicate-dust-8d19"
 compatibility_date = "2024-09-09"
 main = "./build/worker/index.js"
 experimental_assets = { directory = "./build/client" }
+
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "demo-db"
+database_id = "acdd5e7f-7dec-4073-bf20-9dff4d04b8f8"
+
+[unsafe.metadata.observability]
+enabled = true
+
+[placement]
+mode = "smart"
