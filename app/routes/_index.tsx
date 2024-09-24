@@ -24,7 +24,7 @@ export const loader: LoaderFunction = async ({ context }) => {
 
   try {
 
-    console.log("query D1fsdfsdfs")
+    console.log("query D1")
     // Query the D1 database. Split data into 3 queries 
     const countResult = await env.DB.prepare("SELECT COUNT(*) as count, MAX(id) as maxId FROM users").first<CountResult>();
 
