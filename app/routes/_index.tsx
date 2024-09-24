@@ -40,9 +40,6 @@ export const loader: LoaderFunction = async ({ context }) => {
 
     const partSize = Math.ceil(totalCount / 3);
 
-    console.log("starting queries")
-
-
     // Query for the first part
     const part1Result = await env.DB.prepare(
       "SELECT * FROM users WHERE id <= ? ORDER BY id LIMIT ?"
