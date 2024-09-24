@@ -12,5 +12,5 @@ database_id = "acdd5e7f-7dec-4073-bf20-9dff4d04b8f8"
 [unsafe.metadata.observability]
 enabled = true
 
-[placement]
-mode = "smart"
+#[placement]
+#mode = "off"
